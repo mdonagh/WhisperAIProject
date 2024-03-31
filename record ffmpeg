@@ -1,0 +1,5 @@
+ffmpeg -f avfoundation -i ":1" -acodec pcm_s32le -ar 44100 -ac 2 -segment_time 60 -f segment -strftime 1 /Users/magnusfremont/Desktop/audios/output_%Y-%m-%d_%H-%M-%S.wav
+
+ ffmpeg -f avfoundation -i ":1" -acodec pcm_s32le -ar 44100 -ac 2 -segment_time 15 -f segment -strftime 1 /Users/magnusfremont/Desktop/audios/output_%Y-%m-%d_%H-%M-%S.wav
+
+
